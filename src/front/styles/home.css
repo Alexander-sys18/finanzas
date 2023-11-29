@@ -1,0 +1,39 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+.carousel-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel {
+    margin-top: 32px;
+}
+.large-img {
+    max-width: 100%;
+    height: auto; 
+}
+
+@media (min-width: 1200px) {
+    .large-img {
+        max-width: 70%; 
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black; 
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: inherit;
+        color: inherit;
+    }
+}

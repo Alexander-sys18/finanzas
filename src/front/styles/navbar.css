@@ -1,0 +1,42 @@
+.navbar {
+    background-color: black;
+}
+  
+.logo-img {
+    width: 18rem;
+    height: auto;
+    min-width: 10rem;
+}
+  
+.containerDeNavbarHome {
+    padding: 0rem 0.25rem 0rem 0.25rem !important;
+    flex-direction: inline; 
+    align-items: center; 
+}
+
+.landingButton {
+    color: white;
+}
+
+#navbarNav {
+    justify-content: right;
+}
+  
+.navbar-expand-lg {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+  
+.landingNav .itemNav {
+    margin-right: 15px; 
+}
+
+.nav-link {
+    display: flex; 
+    align-items: center; 
+}
+
+
+
+
+
+

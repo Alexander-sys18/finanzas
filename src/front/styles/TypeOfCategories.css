@@ -1,0 +1,61 @@
+.containerDeTypeOfCategories{
+    margin-top: 20vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.containerNicoTypeOfCategoriesprimero{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60vh;
+    border: solid rgb(201, 201, 201) 1px;
+    border-radius: 25px;
+    min-height: 45vh;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+}
+.containerRegistroCategoriesNicoTypeOfCategories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60vh;
+    border: solid rgb(201, 201, 201) 1px;
+    border-radius: 25px;
+    min-height: 45vh;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    max-height: 80vh;
+    overflow: auto;
+    backdrop-filter: blur(10px);
+}
+.fa-user-pen{
+    margin-right: 8px;
+    font-size: 20px;
+}
+.fa-pencil{
+    margin-right: 8px;
+    font-size: 20px;
+}
+.containerlapiztypesofcategoriesNico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.TituloTypesOfCategories{
+    margin-top: 6px;
+}
+.EgresosTypesOfCategoriesTablaback{
+    background-color: rgba(75, 192, 192, 0.3);
+}
+.IngresosTypesOfCategoriesTablaback{
+    background-color: rgba(255, 99, 132, 0.3);
+}

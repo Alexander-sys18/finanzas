@@ -1,0 +1,61 @@
+#tituloDeRegistroM{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: black;
+}
+.containerDeRegistroM{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70vh;
+    border: solid rgb(201, 201, 201) 1px;
+    border-radius: 25px;
+    min-height: 45vh;
+    margin-top: 120px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+.fondoDeRegistroM{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, gray, white);
+    background-position: top;
+    background-size: 100% 1000%;
+    background-repeat: no-repeat;
+}
+.containerDeRegistroM2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.botonDeRegistroM {
+    background-color:black;
+}
+
+.inputsMovimientos {
+    margin: 2px !important;
+    max-width: 45vh !important;
+    min-width: 40vh !important;
+}
+.inputsMovimientos:focus {
+    border-bottom: 3px solid #A9973A !important;
+}
+.fa-credit-card{
+    color: black;
+    padding: 2px;
+    margin-right: 5px;
+}
+.inputMoneda {
+    justify-content:center !important;
+    flex-direction: column;
+}
+
+
+
+  
+  
+  
